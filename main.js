@@ -1,4 +1,4 @@
-console.log("ssss");
+
 $('#idFormulario').on('submit',function(e){   
  e.preventDefault();
  var data=$(this).serializeArray();
@@ -8,8 +8,6 @@ $('#idFormulario').on('submit',function(e){
  console.log(data[3]);
  console.log(data[4]);
  
-
-
   var datos2={
              data: [{
              "AcceptedCmp3": data[0].value,
